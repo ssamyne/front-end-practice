@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # front-end-practice
 for practicing.
 >>>>>>> origin/main
