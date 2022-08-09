@@ -6,13 +6,13 @@ const Navbar = () => {
   return (
     <div className={styles.nav}>
       <NavLink to='/' className={styles.nav__brand}>
-        unSmile
+        unSmile &#58;&#41;
       </NavLink>
       <NavLink to='about' className={styles.nav__link}>
-        about
+        About
       </NavLink>
       <NavLink to='contact' className={styles.nav__link}>
-        contact
+        Contact
       </NavLink>
     </div>
   );

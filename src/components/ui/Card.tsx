@@ -8,7 +8,7 @@ const Card: React.FC<{ children: JSX.Element }> = React.memo(({ children }) => {
       <header>
         <Navbar />
       </header>
-      <div>{children}</div>
+      <main>{children}</main>
       <footer></footer>
     </div>
   );

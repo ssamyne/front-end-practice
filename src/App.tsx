@@ -9,6 +9,7 @@ const App = () => {
     <Card>
       <Routes>
         <Route path='/' element={<HomePage />} />
+        <Route path='*' element={<div>not found</div>} />
       </Routes>
     </Card>
   );
