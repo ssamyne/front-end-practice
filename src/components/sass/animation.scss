@@ -1,0 +1,67 @@
+@keyframes firstOpen {
+  0% {
+    visibility: visible;
+  }
+
+  90% {
+    visibility: visible;
+  }
+
+  100% {
+    visibility: hidden;
+  }
+}
+
+@keyframes smileOpen {
+  0% {
+    transform: translate(-50%, -50%) rotate(-30deg);
+  }
+
+  40% {
+    transform: translate(-50%, -50%) rotate(300deg);
+  }
+
+  70% {
+    transform: translate(-50%, -50%) rotate(60deg);
+  }
+
+  80% {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+
+  90% {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+}
+
+@keyframes smileEnd {
+  0% {
+    top: 50%;
+    left: 50%;
+    transform: scale(1) translate(-50%, -50%) rotate(90deg);
+  }
+
+  100% {
+    top: -15%;
+    left: 15%;
+    transform: scale(0.2) translate(0, 0) rotate(90deg);
+  }
+}
+
+@keyframes winkEye {
+  0% {
+    background-position: 0%;
+  }
+
+  50% {
+    background-position: 70%;
+  }
+
+  100% {
+    background-position: 0%;
+  }
+}

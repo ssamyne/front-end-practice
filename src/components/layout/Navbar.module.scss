@@ -10,6 +10,7 @@
   &__brand {
     width: max-content;
     font-size: $font-xl;
+    font-weight: 700;
     letter-spacing: 0.1rem;
     color: $color-secondary;
     grid-column: 2 / 3;
@@ -19,9 +20,9 @@
   &__link,
   &__active {
     position: relative;
-    font-size: $font-m;
+    font-size: $font-l;
     letter-spacing: 0.2rem;
-    color: $color-white;
+    color: $color-white-light;
     padding: 0.6rem 2.2rem;
     transition: all 0.3s;
 
@@ -35,7 +36,6 @@
     }
 
     &:hover {
-      color: $color-white-light;
       transform: translateY(-2px);
 
       &::after {

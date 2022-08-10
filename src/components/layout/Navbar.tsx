@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
     <div className={styles.nav}>
-      <NavLink to='/' className={styles.nav__brand}>
+      <NavLink reloadDocument to='/' className={styles.nav__brand}>
         unSmile &#58;&#41;
       </NavLink>
       <NavLink

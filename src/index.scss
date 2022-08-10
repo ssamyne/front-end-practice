@@ -1,3 +1,5 @@
+@import '../src/components/sass/variables.scss';
+
 * {
   margin: 0;
   padding: 0;
@@ -27,20 +29,22 @@ a {
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 6px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #686868;
+  background: $color-white;
+  border-radius: 20px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #2e2e2e;
+  background: $color-secondary;
+  border-radius: 20px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #808080;
+  background: rgba($color-secondary, 0.8);
 }
