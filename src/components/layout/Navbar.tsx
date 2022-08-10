@@ -8,10 +8,20 @@ const Navbar = () => {
       <NavLink to='/' className={styles.nav__brand}>
         unSmile &#58;&#41;
       </NavLink>
-      <NavLink to='about' className={styles.nav__link}>
+      <NavLink
+        to='about'
+        className={({ isActive }) => {
+          return isActive ? styles.nav__active : styles.nav__link;
+        }}
+      >
         About
       </NavLink>
-      <NavLink to='contact' className={styles.nav__link}>
+      <NavLink
+        to='contact'
+        className={({ isActive }) => {
+          return isActive ? styles.nav__active : styles.nav__link;
+        }}
+      >
         Contact
       </NavLink>
     </div>
